@@ -1,0 +1,5 @@
+/home/krzyslov/Projects/SecureChatServer/build/CMakeFiles/Main.dir
+/home/krzyslov/Projects/SecureChatServer/build/CMakeFiles/Server.dir
+/home/krzyslov/Projects/SecureChatServer/build/CMakeFiles/Client.dir
+/home/krzyslov/Projects/SecureChatServer/build/CMakeFiles/edit_cache.dir
+/home/krzyslov/Projects/SecureChatServer/build/CMakeFiles/rebuild_cache.dir

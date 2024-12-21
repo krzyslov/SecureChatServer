@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <thread>
+#include <ProjectConfig.h>
 using namespace std;
 
 #define MAX_CLIENTS 20
@@ -36,14 +37,14 @@ int main()
 
         switch(answer)
         {
-            case '1':
+            case '1': {
                 thread client_thread(run_client);
                 client_thread.detach(); // Działa w tle
-                break;
-            case '2':
+                break;}
+            case '2': {
                 thread server_thread(run_server);
                 server_thread.detach(); // Działa w tle
-                break;
+                break;}
             case '3':
                 return 0;
             break;
